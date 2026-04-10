@@ -1,0 +1,3 @@
+Minerals=600
+Gas=380
+Food=50
