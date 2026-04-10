@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/EmployeeTaskTracker/EmployeeTaskTracker.iml" filepath="$PROJECT_DIR$/src/EmployeeTaskTracker/EmployeeTaskTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kotlin_Lab9-10_Leschenko.iml" filepath="$PROJECT_DIR$/Kotlin_Lab9-10_Leschenko.iml" />
     </modules>
   </component>
