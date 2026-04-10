@@ -42,4 +42,13 @@ fun main() {
     println("\nНазвание: ${testDept.departmentName}")
     testDept.printDepartmentGoal()
 
+    // Задание 5
+    println("\n=== Полиморфизм: список отчетов ===")
+
+    val reports: List<ReportGenerator> = listOf(employee, devDept)
+
+    for (reporter in reports) {
+        println(reporter.generateReport())
+    }
+
 }

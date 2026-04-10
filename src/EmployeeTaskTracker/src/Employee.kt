@@ -1,8 +1,9 @@
-class Employee {
+class Employee : ReportGenerator {
     private var fullName: String = ""
     private var position: String = ""
     private var salary: Int = 0
     private var yearsOfExperience: Int = 0
+
 
     fun getFullName(): String = fullName
     fun getPosition(): String = position
@@ -32,5 +33,16 @@ class Employee {
         } else {
             value
         }
+    }
+
+    override fun generateReport(): String {
+        return """
+            |=== ОТЧЕТ О СОТРУДНИКЕ ===
+            |ФИО: $fullName
+            |Должность: $position
+            |Зарплата: $salary руб.
+            |Опыт работы: $yearsOfExperience лет
+            |==========================
+        """.trimMargin()
     }
 }
