@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/EmployeeTaskTracker/EmployeeTaskTracker.iml" filepath="$PROJECT_DIR$/src/EmployeeTaskTracker/EmployeeTaskTracker.iml" />
       <module fileurl="file://$PROJECT_DIR$/Kotlin_Lab9-10_Leschenko.iml" filepath="$PROJECT_DIR$/Kotlin_Lab9-10_Leschenko.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/gameCharacter/gameCharacter.iml" filepath="$PROJECT_DIR$/src/gameCharacter/gameCharacter.iml" />
     </modules>
   </component>
 </project>
